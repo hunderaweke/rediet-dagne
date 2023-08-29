@@ -1,7 +1,7 @@
 function NavBar() {
   return (
     <>
-      <div className="sticky top-0 z-40 w-full backdrop-blur-lg flex-none transition-colors  border-b-[1px] border-b-sky-500 duration-500  supports-backdrop-blur:bg-white/75 dark:bg-[#02141C]/80 bg-opacity-70 flex justify-between">
+      <div className="sticky top-1 z-40 w-full backdrop-blur-lg flex-none transition-colors duration-500  supports-backdrop-blur:bg-white/75 dark:bg-[#02141C]/80 flex justify-between">
         <div className="px-20 py-3">
           <h1 className="font-brand tracking-wider inline text-transparent bg-clip-text bg-gradient-to-br font-bold from-sky-500 to-green-500 lg:text-5xl md:text-4xl">
             Rediet

@@ -17,12 +17,12 @@ function Hero() {
           </p>
           <div className="font-normal flex w-full justify-center gap-10">
             <div className="bg-gradient-to-tr from-sky-500 to-lime-400 p-0.5 rounded-full">
-              <button className="bg-[#0C2A36] py-2 px-6 rounded-full">
+              <button className="bg-[#0C2A36] hover:bg-transparent hover:duration-1000 py-2 px-6 rounded-full">
                 Download Cv
               </button>
             </div>
             <div className="bg-gradient-to-tr from-sky-500 to-lime-400 p-0.5 rounded-full">
-              <button className="bg-[#0C2A36] py-2 px-6 rounded-full">
+              <button className=" bg-[#0C2A36] hover:bg-transparent hover:duration-1000 py-2 px-6 rounded-full">
                 Contact Me
               </button>
             </div>
