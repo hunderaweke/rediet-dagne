@@ -4,7 +4,7 @@
     background-color: #1a4e63;
 }
 .swiper-pagination-bullet-active{
-    background-image: linear-gradient(to right,#84cc16,#0ea5e9);
+    background-image: linear-gradient(to right,#0BE4CC, #0ea5e9);
 }
 .swiper-slide-next{
     opacity: 100% !important;

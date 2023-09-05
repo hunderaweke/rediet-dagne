@@ -3,11 +3,11 @@ function AboutMe() {
     <>
       <div id="about" className="mt-10">
         <div className="w-full text-center">
-          <h1 className="font-brand text-5xl bg-clip-text bg-gradient-to-br from-sky-500 to-lime-400 text-transparent">
+          <h1 className="font-brand text-5xl bg-clip-text bg-gradient-to-r from-[#0BE4CC] to-sky-500 text-transparent">
             About Me
           </h1>
         </div>
-        <div className="px-48 py-12 mt-10  border-lime-400 border-right-">
+        <div className="px-10 lg:px-48 py-12 mt-10">
           <p className="font-normal tracking-tighter">
             I am a passionated graphics designer with high level of skill and
             professional ethics and philosophy with so many projects and

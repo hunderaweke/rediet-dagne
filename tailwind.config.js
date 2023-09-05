@@ -9,6 +9,10 @@ export default {
       fontFamily:{
         'brand':[ 'Zen Tokyo Zoo', 'cursive'],
         'normal':['Roboto Mono','monospace'],
+      },
+      color:{
+        '#obe4cc':'gradient-1',
+        "#0093e0":'gradient-2'
       }
     },
   },
