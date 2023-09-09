@@ -7,11 +7,9 @@ import "./pagination.css";
 function Projects() {
   return (
     <>
-      <h1 className="font-brand text-center text-5xl text-transparent bg-clip-text bg-gradient-to-r from-[#0BE4CC] to-sky-500">
-        Projects
-      </h1>
+      <h1 className="header">Projects</h1>
       <Swiper
-        className="w-full px-20 md:px-36 py-20"
+        className="w-full px-10 md:px-36 py-20"
         modules={[Pagination, Autoplay, Parallax, Mousewheel]}
         parallax={{ enabled: true }}
         mousewheel={true}
@@ -19,9 +17,13 @@ function Projects() {
         slidesPerView={1}
         spaceBetween={20}
         breakpoints={{
-          640: {
+          850: {
             slidesPerView: 2,
             spaceBetween: 20,
+          },
+          1200: {
+            slidesPerView: 3,
+            spaceBetween: 90,
           },
         }}
       >

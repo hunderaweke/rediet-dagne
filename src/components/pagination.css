@@ -6,14 +6,3 @@
 .swiper-pagination-bullet-active{
     background-image: linear-gradient(to right,#0BE4CC, #0ea5e9);
 }
-.swiper-slide-next{
-    opacity: 100% !important;
-    transition-duration: 1s;
-}
-.swiper-slide{
-    opacity: 30%;
-    transition-duration: 1s;
-}
-.swiper-slide:hover{
-    opacity: 100%;
-}
