@@ -29,7 +29,13 @@ function Hero() {
           </div>
         </div>
         <div className="w-full flex justify-center py-3 md:py-32">
-          <div className="border-none w-64 h-64 md:w-[27rem] md:h-[27rem] rounded-full bg-gradient-to-bl from-[#0BE4CC] to-sky-500 shadow-[#0BE4CC] shadow-[0px_0px_190px_15px]"></div>
+          <div className="border-none w-64 h-64 md:w-[27rem] md:h-[27rem] rounded-full overflow-hidden bg-gradient-to-bl from-[#0BE4CC] to-sky-500 shadow-[#0BE4CC] shadow-[0px_0px_190px_15px]">
+            <img
+              src="hero-image.png"
+              className="max-w-[120%] h-[120%]"
+              alt="Rediet Dagne"
+            />
+          </div>
         </div>
       </div>
     </>

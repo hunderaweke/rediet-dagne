@@ -40,12 +40,12 @@ function Contact() {
           <input
             type="text"
             className="placeholder:font-normal  bg-[#0C2A36] rounded-md"
-            placeholder="mail@gmail.com"
+            placeholder="Full Name"
           />
           <input
             type="text"
             className="placeholder:font-normal  bg-[#0C2A36] rounded-md"
-            placeholder="mail@gmail.com"
+            placeholder="email@example.com"
           />
           <textarea
             name=""

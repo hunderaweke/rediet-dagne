@@ -17,11 +17,11 @@ function Footer() {
           </a>
         </span>
         <span>
-          2023 Copyright &copy reserved.{" "}
+          2023 Copyright &copy reserved. Developed by{" "}
           <a
             href="https://hunderaweke.github.io"
             target="_blank"
-            className="text-blue-400"
+            className="text-sky-500"
           >
             Hundera Awoke
           </a>
